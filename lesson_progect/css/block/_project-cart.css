@@ -1,0 +1,46 @@
+.project-cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+
+.cart {
+    width: 453px;
+    height: auto;
+}
+
+.cart-image {
+    width: 453px;
+    height: 453px;
+}
+
+.cart-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.cart-content h2 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.cart-content span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Dm Sans", sans-serif;
+}
+
+.cart button {
+    width: 257px;
+    height: 58px;
+    border: 1px solid #0126DE;
+    border-radius: 35px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #0126DE;
+}

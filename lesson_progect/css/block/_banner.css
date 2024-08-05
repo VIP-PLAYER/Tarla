@@ -1,0 +1,46 @@
+.banner {
+    background:#FFC3A0;
+}
+
+.banner .container {
+    padding-top: 22px;
+    padding-left: 16px;
+    padding-bottom: 22px;
+    padding-right: 16px;
+    display: flex;
+    align-items:center ;
+    column-gap: 48px;
+}
+
+.banner-content h2 {
+    font-size: 76px;
+    line-height: 90px;
+    font-weight: 400;
+    color: black;
+}
+
+.banner-content h3 {
+    font-size: 78px;
+    line-height: 90px;
+    font-weight: 400;
+    color: black;
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family:"DM Sans", sans-serif;
+    color: black;
+    margin-top: 33px;
+}
+
+.banner-content button {
+    width: 310px;
+    height: 58px;
+    border-radius: 35px;
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+} 

@@ -1,0 +1,42 @@
+.header {
+    padding: 20px;
+    width: 100%;
+    background: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.cotainer {
+    width: 1220px;
+    border: 1px solid yellowgreen;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo {
+    color: blue;
+}
+
+.nav ul {
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 100px;
+}

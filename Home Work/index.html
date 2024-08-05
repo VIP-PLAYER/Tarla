@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основы HTML</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <label for="username">Имя пользователя</label>
+        <input type="text" id="username">
+        <label for="email"></label>
+        <input type="text" id="email">
+
+        <label for="age">Выберите свой возраст</label>
+        <select name="age" id="age"multiple size="2">
+            <option value="child">0-6</option>
+            <option value="minor">6-18</option>
+            <option value="adult" selected>18-60</option>
+            <option value="senior">60-100</option>
+            <option value="supersenior">>100</option>
+        </select>
+        </fieldset>
+        <textarea name="comment" id="comment"></textarea>
+
+        <input type="text"list="emails">
+        <datalist id="emails">
+            <option value="111gmail.com"></option>
+            <option value="222gmail.com"></option>
+            <option value="333gmail.com"></option>
+
+
+        </datalist>
+
+
+        <button type="button">нажми меня!</button>
+    </form>
+</body>
+</html>

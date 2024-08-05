@@ -1,0 +1,26 @@
+.container {
+    width: 1200px;
+    height: 800px;
+    border: 1px solid black;
+        margin: 0 auto;
+}
+
+.content {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+.item-2{
+    height: 400px;
+}
+
+.item-3 {
+    height: 600px;
+}

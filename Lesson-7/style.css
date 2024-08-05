@@ -1,0 +1,68 @@
+.cotainer {
+    width: 1200px;
+    height: 700px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: animation 5s infinite alternate;
+}
+
+@keyframes animation {
+    0% {
+        margin-right: 91.8%;
+        border-radius: 0%;
+    }
+
+    100% {
+        margin-left: 91.8%;
+        background-color: blue;
+    }
+}
+
+.content-1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lime;
+    right: 0;
+    top: 100px;
+    animation: Elhan 5s infinite alternate;
+}
+
+.content-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: magenta;
+    top: 200px;
+    animation: top 5s infinite alternate;
+}
+
+@keyframes Elhan {
+0% {
+margin-left: 91.8%;
+border-radius: 0%;
+}
+
+100% {
+    margin-right:91.8%;
+    background-color: red;
+}
+}
+
+@keyframes top {
+    0% {
+        margin-top: 400px;
+    }
+    100% {
+        margin-bottom: 400px;
+    }
+}
